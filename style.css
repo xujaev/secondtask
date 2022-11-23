@@ -1,0 +1,277 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+}
+.chap{
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.rost{
+    margin-left: 250px;
+}
+.chap .center{
+    padding-left: 40px;
+    margin: auto;
+    width: 90%;
+}
+.chap .center ul li a{
+    padding: 10px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.chap .center h1:hover{
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    display: inline-block;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+.chap .center ul li a:hover{
+    cursor: pointer;
+    padding: 15px;
+    background-color: rgb(15, 159, 89);
+    transition: all 0.7s ease;
+    border-radius: 5px;
+}
+.chap .center ul li i{
+    padding-right: 16px;
+}
+.chap .center ul li {
+    list-style: none;
+    padding: 20px 0px;
+    font-size: 24px;
+}
+.chap .center ul li:last-child{
+    padding-top: 100px;
+}
+.chap{
+    display: flex;
+    width: 20%;
+}
+.chap h1{
+    margin: 25px 0px 35px 10px;
+}
+.chap hr{
+    opacity: 0.6;
+    color: lightgray;
+    width: 1px;
+    height: 100vh;
+}
+.rost{
+    width: 80%;
+}
+.rost .center{
+    padding-left: 100px;
+    /* width: 70%; */
+    margin: auto;
+}
+.rost .center .first{
+    display: flex;
+}
+.rost .first .left{
+    width: 30%;
+}
+.rost .first .right{
+    width: 70%;
+}
+.rost .first .left img{
+    margin: 105px 0px 60px 150px;
+    width: 150px;
+    height: 150px;
+}
+.rost .first .right .follower h1{
+    font-weight: normal;
+    margin-right: 30px;
+    font-size: 26px;
+}
+.rost .first .right .follower h6{
+    font-weight: 900;
+    font-size: 15px;
+    padding: 7px 30px ;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 0px 10px ;
+}
+.rost .first .right .follower h6:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+.rost .first .right .follower h1:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.rost .first .right .follower i:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+.rost .first .right .follower{
+    display: flex;
+    margin-top: 50px;
+}
+.rost .first .right .follower i{
+    padding: 7px 7px ;
+    border: 1px solid lightgray;
+    margin: 0px 10px ;
+    border-radius: 5px;
+}
+.rost .first .right .following{
+    display: flex;
+    margin-top: 20px;
+}
+.rost .first .right .following .p{
+    margin-right: 75px;
+}
+.rost .first .right .following h1{
+    font-weight: lighter;
+    font-size: 18px;
+    margin-right: 40px;
+}
+.rost .first .right .following h2{
+    font-weight: lighter;
+    font-size: 18px;
+}
+.rost .first .right .following h1:hover{
+    cursor: pointer;
+}
+.rost .first .right .about{
+    margin-top: 30px;
+}
+.rost .first .right .about h1{
+    font-size: 18px;
+    font-weight: 500;
+}
+.rost .first .right .about h6{
+    font-size: 17px;
+    margin-top: 5px;
+    font-weight: 500;
+    color: gray;
+}
+.rost .first .right .about p{
+    margin-top: 6px;
+}
+.rost .first .right .about .gl{
+    color: rgb(17, 17, 125);
+    text-decoration: none;
+    font-size: 17px;
+}
+.rost .first .right .about .gl:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.rost .second {
+    width: 100%;
+    margin: 30px 0px 0px 90px;
+    
+}
+.rost .second img{
+    width: 87px;
+    height: 87px;
+    margin: 25px;
+}
+.rost .second .highlights{
+    display: flex;
+}
+.rost .second, .highlights:hover{
+    cursor: pointer;
+}
+.rost .second .highlights p:nth-child(1){
+    margin-left: 35px ;
+    
+}
+.rost .second .highlights p:nth-child(2){
+    margin-left: 80px ;
+    
+}
+.rost .second .highlights p:nth-child(3){
+    margin-left: 85px ;
+    
+}
+.rost .second .highlights p:nth-child(4){
+    margin-left: 70px ;
+    
+}
+.rost .second .highlights p:nth-child(5){
+    margin-left: 50px ;
+    
+}
+.rost .second .highlights p:nth-child(6){
+    margin-left: 40px ;
+    
+}
+.rost hr{
+    margin-left: 70px;
+    margin-top: 60px;
+    height: 1px;
+    width: 85%;
+    color: lightgray;
+    background-color: lightgray;
+}
+.rost{
+    overflow: hidden;
+}
+.rost .pst i{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.rost .pst h1{
+    font-weight: 100;
+    font-size: 35px;
+}
+.rost .pst:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.rost .pst{
+    display: flex;
+    
+    margin-top: 15px;
+    margin-left: 500px;
+}
+.rost .third{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.rost .third .insta{
+    margin: 15px;
+    width: 293px;
+    height: 293px;
+    position: relative;
+    transition: all 0.7s ease;
+}
+.rost .third .post img{
+    width: 100%;
+}
+.rost .third .post .icons{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: -1;
+    transition: all 0.7s ease;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 293px;
+    height: 293px;
+}
+.rost .third .post .insta:hover .icons{
+    z-index: 1;
+}
+/* .rost .third .post .post{
+    display: flex;
+} */
+/* .rost .third .post  h1{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px;
+} */
